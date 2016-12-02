@@ -14,14 +14,13 @@ module.exports={
 	},
 	//webpack使用loader的方式来处理各种各样的资源
 	module:{
-		loaders:[
-		    /*
+		loaders:[	    
 		    {
-		        test: /\.css$/,
-		        loaders: ['style', 'css'],
+		        test: /\.scss$/,
+		        loaders: ['style','css','sass'],
 		        include: APP_PATH
 		    },
-		     */
+		     
 			{
 		        test: /\.jsx?$/,
 		        loader: 'babel',
